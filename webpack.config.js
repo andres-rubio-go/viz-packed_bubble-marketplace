@@ -11,7 +11,7 @@ var webpackConfig = {
     contentBase: "./dist",
   },
   output: {
-    filename: "dist/packed_bubble.js",
+    filename: "dist/bundle.js",
     path: path.join(path.resolve(__dirname), "/dist"),
     library: "[name]",
     libraryTarget: "umd",
